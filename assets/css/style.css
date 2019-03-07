@@ -1,0 +1,184 @@
+body {
+     background-image: url("../images/concrete_seamless.jpg");
+     background-repeat: repeat; 
+}
+
+.topnav {
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-bottom: 0;
+    z-index:3;
+}
+
+.headerContent {
+    width: 960px;
+    margin: auto;
+}
+
+h1 {
+    float: left;
+    margin-left: 0px;
+    background: #4aaaa5;
+    padding: 25px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.topnav a {
+  float: left;
+  color: #777777;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav a:hover {
+  color: #c7c7c7;
+}
+
+.topnav a.active {
+  color: #a1a1a1;
+}
+
+.topnav-right {
+  float: right;
+  margin-top: 15px;
+  margin-bottom: auto;
+  color: #777;
+}
+
+.contentBox {
+    margin: 120px auto 100px auto;
+    width: 908px;
+    border: 1px solid #ddd;
+    background: white;
+    padding: 30px;
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    font-size: 14pt;
+    z-index: 1;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    margin-top: 0px;
+}
+
+#floatedImg {
+    float: left;
+    margin: 15px 25px 0px 0px;
+    border: 1px solid #ccc;
+    height: 272px;
+}
+
+img {
+    width: 272px;
+    height: 272px;
+}
+
+
+hr {
+    border: 1.5px solid #e4e4e4;
+}
+
+.footerBar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+    background: #666;
+    border-top: 8px #4aaaa5 solid;
+    text-align: center;
+    color: #d3d3d3;
+    font-size: 8pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerContent {
+    bottom: 0;
+    
+}
+
+p.footerContent  {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.projectsContainer {
+    margin-top: 20px;
+    width: 70%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.projectLink {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 250px;
+    height: 170px;
+    margin: 20px 40px 20px 0px;
+    float: left;
+}
+
+.projectImage {
+    width: 100%;
+    height: 100%;
+}
+
+.projectTitle {
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    background: #4aaaa5;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;  
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+  }
+  
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+input[type=submit]:hover {
+    background-color: #62e2dc;
+  }
+
+form {
+    padding-top: 15px;
+}
